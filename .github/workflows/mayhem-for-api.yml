@@ -57,6 +57,7 @@ jobs:
           mapi-token: ${{ secrets.MAPI_TOKEN }}
           api-url: http://localhost:8080 
           api-spec: src/main/resources/openapi.yaml
+          target-name: forallsecure/mapi-swagger-petstore
           duration: 60
           sarif-report: mapi.sarif
 
